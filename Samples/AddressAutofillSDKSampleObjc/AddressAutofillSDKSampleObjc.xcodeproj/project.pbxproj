@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C587E57EC8D4C294067C9F0 /* Pods_AddressAutofillSDKSampleObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBF1861F5D14863D1B8A67A /* Pods_AddressAutofillSDKSampleObjc.framework */; };
+		776C1ABE2850B78A005C939C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C1ABD2850B78A005C939C /* AppDelegate.m */; };
+		776C1AC12850B78A005C939C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C1AC02850B78A005C939C /* SceneDelegate.m */; };
+		776C1AC42850B78A005C939C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C1AC32850B78A005C939C /* ViewController.m */; };
+		776C1AC72850B78A005C939C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776C1AC52850B78A005C939C /* Main.storyboard */; };
+		776C1AC92850B78C005C939C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776C1AC82850B78C005C939C /* Assets.xcassets */; };
+		776C1ACC2850B78C005C939C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776C1ACA2850B78C005C939C /* LaunchScreen.storyboard */; };
+		776C1ACF2850B78C005C939C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C1ACE2850B78C005C939C /* main.m */; };
+		776C1AD92850B78D005C939C /* AddressAutofillSDKSampleObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C1AD82850B78D005C939C /* AddressAutofillSDKSampleObjcTests.m */; };
+		776C1AE32850B78D005C939C /* AddressAutofillSDKSampleObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C1AE22850B78D005C939C /* AddressAutofillSDKSampleObjcUITests.m */; };
+		776C1AE52850B78D005C939C /* AddressAutofillSDKSampleObjcUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C1AE42850B78D005C939C /* AddressAutofillSDKSampleObjcUITestsLaunchTests.m */; };
+		9795B7ACC70419B64BC610F5 /* Pods_AddressAutofillSDKSampleObjcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6652FFEBEC5AF530399EB21D /* Pods_AddressAutofillSDKSampleObjcTests.framework */; };
+		CE701BF735F638A06E6CE78A /* Pods_AddressAutofillSDKSampleObjc_AddressAutofillSDKSampleObjcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D085ABBFF174AC732B92B41A /* Pods_AddressAutofillSDKSampleObjc_AddressAutofillSDKSampleObjcUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		776C1AD52850B78D005C939C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776C1AB12850B78A005C939C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776C1AB82850B78A005C939C;
+			remoteInfo = AddressAutofillSDKSampleObjc;
+		};
+		776C1ADF2850B78D005C939C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776C1AB12850B78A005C939C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776C1AB82850B78A005C939C;
+			remoteInfo = AddressAutofillSDKSampleObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EBF1861F5D14863D1B8A67A /* Pods_AddressAutofillSDKSampleObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressAutofillSDKSampleObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0931CBD090E3E9096349E8 /* Pods-AddressAutofillSDKSampleObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressAutofillSDKSampleObjc.release.xcconfig"; path = "Target Support Files/Pods-AddressAutofillSDKSampleObjc/Pods-AddressAutofillSDKSampleObjc.release.xcconfig"; sourceTree = "<group>"; };
+		514D5BE205F0891419F88704 /* Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.release.xcconfig"; path = "Target Support Files/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53620A1C5AE5A3FE583795DA /* Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.debug.xcconfig"; path = "Target Support Files/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6652FFEBEC5AF530399EB21D /* Pods_AddressAutofillSDKSampleObjcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressAutofillSDKSampleObjcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		776C1AB92850B78A005C939C /* AddressAutofillSDKSampleObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressAutofillSDKSampleObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776C1ABC2850B78A005C939C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		776C1ABD2850B78A005C939C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		776C1ABF2850B78A005C939C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		776C1AC02850B78A005C939C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		776C1AC22850B78A005C939C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		776C1AC32850B78A005C939C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		776C1AC62850B78A005C939C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776C1AC82850B78C005C939C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776C1ACB2850B78C005C939C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776C1ACD2850B78C005C939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776C1ACE2850B78C005C939C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		776C1AD42850B78D005C939C /* AddressAutofillSDKSampleObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressAutofillSDKSampleObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776C1AD82850B78D005C939C /* AddressAutofillSDKSampleObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressAutofillSDKSampleObjcTests.m; sourceTree = "<group>"; };
+		776C1ADE2850B78D005C939C /* AddressAutofillSDKSampleObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressAutofillSDKSampleObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776C1AE22850B78D005C939C /* AddressAutofillSDKSampleObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressAutofillSDKSampleObjcUITests.m; sourceTree = "<group>"; };
+		776C1AE42850B78D005C939C /* AddressAutofillSDKSampleObjcUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressAutofillSDKSampleObjcUITestsLaunchTests.m; sourceTree = "<group>"; };
+		80DB880D90D8FE64D6AE9F3A /* Pods-AddressAutofillSDKSampleObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressAutofillSDKSampleObjc.debug.xcconfig"; path = "Target Support Files/Pods-AddressAutofillSDKSampleObjc/Pods-AddressAutofillSDKSampleObjc.debug.xcconfig"; sourceTree = "<group>"; };
+		984400E6D37A3A7E30A2528D /* Pods-AddressAutofillSDKSampleObjcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressAutofillSDKSampleObjcTests.debug.xcconfig"; path = "Target Support Files/Pods-AddressAutofillSDKSampleObjcTests/Pods-AddressAutofillSDKSampleObjcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CABB32C888E9D9801B0235D7 /* Pods-AddressAutofillSDKSampleObjcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressAutofillSDKSampleObjcTests.release.xcconfig"; path = "Target Support Files/Pods-AddressAutofillSDKSampleObjcTests/Pods-AddressAutofillSDKSampleObjcTests.release.xcconfig"; sourceTree = "<group>"; };
+		D085ABBFF174AC732B92B41A /* Pods_AddressAutofillSDKSampleObjc_AddressAutofillSDKSampleObjcUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressAutofillSDKSampleObjc_AddressAutofillSDKSampleObjcUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776C1AB62850B78A005C939C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C587E57EC8D4C294067C9F0 /* Pods_AddressAutofillSDKSampleObjc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776C1AD12850B78D005C939C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9795B7ACC70419B64BC610F5 /* Pods_AddressAutofillSDKSampleObjcTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776C1ADB2850B78D005C939C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE701BF735F638A06E6CE78A /* Pods_AddressAutofillSDKSampleObjc_AddressAutofillSDKSampleObjcUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1351689670520D2307063D85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EBF1861F5D14863D1B8A67A /* Pods_AddressAutofillSDKSampleObjc.framework */,
+				D085ABBFF174AC732B92B41A /* Pods_AddressAutofillSDKSampleObjc_AddressAutofillSDKSampleObjcUITests.framework */,
+				6652FFEBEC5AF530399EB21D /* Pods_AddressAutofillSDKSampleObjcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		776C1AB02850B78A005C939C = {
+			isa = PBXGroup;
+			children = (
+				776C1ABB2850B78A005C939C /* AddressAutofillSDKSampleObjc */,
+				776C1AD72850B78D005C939C /* AddressAutofillSDKSampleObjcTests */,
+				776C1AE12850B78D005C939C /* AddressAutofillSDKSampleObjcUITests */,
+				776C1ABA2850B78A005C939C /* Products */,
+				D1FDB76FA0F42D03BFD7AA0B /* Pods */,
+				1351689670520D2307063D85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		776C1ABA2850B78A005C939C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776C1AB92850B78A005C939C /* AddressAutofillSDKSampleObjc.app */,
+				776C1AD42850B78D005C939C /* AddressAutofillSDKSampleObjcTests.xctest */,
+				776C1ADE2850B78D005C939C /* AddressAutofillSDKSampleObjcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776C1ABB2850B78A005C939C /* AddressAutofillSDKSampleObjc */ = {
+			isa = PBXGroup;
+			children = (
+				776C1ABC2850B78A005C939C /* AppDelegate.h */,
+				776C1ABD2850B78A005C939C /* AppDelegate.m */,
+				776C1ABF2850B78A005C939C /* SceneDelegate.h */,
+				776C1AC02850B78A005C939C /* SceneDelegate.m */,
+				776C1AC22850B78A005C939C /* ViewController.h */,
+				776C1AC32850B78A005C939C /* ViewController.m */,
+				776C1AC52850B78A005C939C /* Main.storyboard */,
+				776C1AC82850B78C005C939C /* Assets.xcassets */,
+				776C1ACA2850B78C005C939C /* LaunchScreen.storyboard */,
+				776C1ACD2850B78C005C939C /* Info.plist */,
+				776C1ACE2850B78C005C939C /* main.m */,
+			);
+			path = AddressAutofillSDKSampleObjc;
+			sourceTree = "<group>";
+		};
+		776C1AD72850B78D005C939C /* AddressAutofillSDKSampleObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				776C1AD82850B78D005C939C /* AddressAutofillSDKSampleObjcTests.m */,
+			);
+			path = AddressAutofillSDKSampleObjcTests;
+			sourceTree = "<group>";
+		};
+		776C1AE12850B78D005C939C /* AddressAutofillSDKSampleObjcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				776C1AE22850B78D005C939C /* AddressAutofillSDKSampleObjcUITests.m */,
+				776C1AE42850B78D005C939C /* AddressAutofillSDKSampleObjcUITestsLaunchTests.m */,
+			);
+			path = AddressAutofillSDKSampleObjcUITests;
+			sourceTree = "<group>";
+		};
+		D1FDB76FA0F42D03BFD7AA0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80DB880D90D8FE64D6AE9F3A /* Pods-AddressAutofillSDKSampleObjc.debug.xcconfig */,
+				3F0931CBD090E3E9096349E8 /* Pods-AddressAutofillSDKSampleObjc.release.xcconfig */,
+				53620A1C5AE5A3FE583795DA /* Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.debug.xcconfig */,
+				514D5BE205F0891419F88704 /* Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.release.xcconfig */,
+				984400E6D37A3A7E30A2528D /* Pods-AddressAutofillSDKSampleObjcTests.debug.xcconfig */,
+				CABB32C888E9D9801B0235D7 /* Pods-AddressAutofillSDKSampleObjcTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776C1AB82850B78A005C939C /* AddressAutofillSDKSampleObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776C1AE82850B78D005C939C /* Build configuration list for PBXNativeTarget "AddressAutofillSDKSampleObjc" */;
+			buildPhases = (
+				347F97EDB665EE534844F26A /* [CP] Check Pods Manifest.lock */,
+				776C1AB52850B78A005C939C /* Sources */,
+				776C1AB62850B78A005C939C /* Frameworks */,
+				776C1AB72850B78A005C939C /* Resources */,
+				6949623621CCD46946B21474 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressAutofillSDKSampleObjc;
+			productName = AddressAutofillSDKSampleObjc;
+			productReference = 776C1AB92850B78A005C939C /* AddressAutofillSDKSampleObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		776C1AD32850B78D005C939C /* AddressAutofillSDKSampleObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776C1AEB2850B78D005C939C /* Build configuration list for PBXNativeTarget "AddressAutofillSDKSampleObjcTests" */;
+			buildPhases = (
+				A161FA8470C90C59763407E5 /* [CP] Check Pods Manifest.lock */,
+				776C1AD02850B78D005C939C /* Sources */,
+				776C1AD12850B78D005C939C /* Frameworks */,
+				776C1AD22850B78D005C939C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776C1AD62850B78D005C939C /* PBXTargetDependency */,
+			);
+			name = AddressAutofillSDKSampleObjcTests;
+			productName = AddressAutofillSDKSampleObjcTests;
+			productReference = 776C1AD42850B78D005C939C /* AddressAutofillSDKSampleObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		776C1ADD2850B78D005C939C /* AddressAutofillSDKSampleObjcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776C1AEE2850B78D005C939C /* Build configuration list for PBXNativeTarget "AddressAutofillSDKSampleObjcUITests" */;
+			buildPhases = (
+				4E5735C28E82F0BDA8CE48B5 /* [CP] Check Pods Manifest.lock */,
+				776C1ADA2850B78D005C939C /* Sources */,
+				776C1ADB2850B78D005C939C /* Frameworks */,
+				776C1ADC2850B78D005C939C /* Resources */,
+				355AAA0C8461A9C2F2DB7745 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776C1AE02850B78D005C939C /* PBXTargetDependency */,
+			);
+			name = AddressAutofillSDKSampleObjcUITests;
+			productName = AddressAutofillSDKSampleObjcUITests;
+			productReference = 776C1ADE2850B78D005C939C /* AddressAutofillSDKSampleObjcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776C1AB12850B78A005C939C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					776C1AB82850B78A005C939C = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					776C1AD32850B78D005C939C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 776C1AB82850B78A005C939C;
+					};
+					776C1ADD2850B78D005C939C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 776C1AB82850B78A005C939C;
+					};
+				};
+			};
+			buildConfigurationList = 776C1AB42850B78A005C939C /* Build configuration list for PBXProject "AddressAutofillSDKSampleObjc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 776C1AB02850B78A005C939C;
+			productRefGroup = 776C1ABA2850B78A005C939C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776C1AB82850B78A005C939C /* AddressAutofillSDKSampleObjc */,
+				776C1AD32850B78D005C939C /* AddressAutofillSDKSampleObjcTests */,
+				776C1ADD2850B78D005C939C /* AddressAutofillSDKSampleObjcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776C1AB72850B78A005C939C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776C1ACC2850B78C005C939C /* LaunchScreen.storyboard in Resources */,
+				776C1AC92850B78C005C939C /* Assets.xcassets in Resources */,
+				776C1AC72850B78A005C939C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776C1AD22850B78D005C939C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776C1ADC2850B78D005C939C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		347F97EDB665EE534844F26A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressAutofillSDKSampleObjc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		355AAA0C8461A9C2F2DB7745 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5735C28E82F0BDA8CE48B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6949623621CCD46946B21474 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressAutofillSDKSampleObjc/Pods-AddressAutofillSDKSampleObjc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressAutofillSDKSampleObjc/Pods-AddressAutofillSDKSampleObjc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressAutofillSDKSampleObjc/Pods-AddressAutofillSDKSampleObjc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A161FA8470C90C59763407E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressAutofillSDKSampleObjcTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776C1AB52850B78A005C939C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776C1AC42850B78A005C939C /* ViewController.m in Sources */,
+				776C1ABE2850B78A005C939C /* AppDelegate.m in Sources */,
+				776C1ACF2850B78C005C939C /* main.m in Sources */,
+				776C1AC12850B78A005C939C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776C1AD02850B78D005C939C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776C1AD92850B78D005C939C /* AddressAutofillSDKSampleObjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776C1ADA2850B78D005C939C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776C1AE52850B78D005C939C /* AddressAutofillSDKSampleObjcUITestsLaunchTests.m in Sources */,
+				776C1AE32850B78D005C939C /* AddressAutofillSDKSampleObjcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		776C1AD62850B78D005C939C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776C1AB82850B78A005C939C /* AddressAutofillSDKSampleObjc */;
+			targetProxy = 776C1AD52850B78D005C939C /* PBXContainerItemProxy */;
+		};
+		776C1AE02850B78D005C939C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776C1AB82850B78A005C939C /* AddressAutofillSDKSampleObjc */;
+			targetProxy = 776C1ADF2850B78D005C939C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		776C1AC52850B78A005C939C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776C1AC62850B78A005C939C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		776C1ACA2850B78C005C939C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776C1ACB2850B78C005C939C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776C1AE62850B78D005C939C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		776C1AE72850B78D005C939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776C1AE92850B78D005C939C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DB880D90D8FE64D6AE9F3A /* Pods-AddressAutofillSDKSampleObjc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TVCUP6HC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddressAutofillSDKSampleObjc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AddressAutofillSDKSampleObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		776C1AEA2850B78D005C939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0931CBD090E3E9096349E8 /* Pods-AddressAutofillSDKSampleObjc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TVCUP6HC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddressAutofillSDKSampleObjc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AddressAutofillSDKSampleObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		776C1AEC2850B78D005C939C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984400E6D37A3A7E30A2528D /* Pods-AddressAutofillSDKSampleObjcTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TVCUP6HC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AddressAutofillSDKSampleObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressAutofillSDKSampleObjc.app/AddressAutofillSDKSampleObjc";
+			};
+			name = Debug;
+		};
+		776C1AED2850B78D005C939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABB32C888E9D9801B0235D7 /* Pods-AddressAutofillSDKSampleObjcTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TVCUP6HC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AddressAutofillSDKSampleObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressAutofillSDKSampleObjc.app/AddressAutofillSDKSampleObjc";
+			};
+			name = Release;
+		};
+		776C1AEF2850B78D005C939C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53620A1C5AE5A3FE583795DA /* Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TVCUP6HC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AddressAutofillSDKSampleObjcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressAutofillSDKSampleObjc;
+			};
+			name = Debug;
+		};
+		776C1AF02850B78D005C939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514D5BE205F0891419F88704 /* Pods-AddressAutofillSDKSampleObjc-AddressAutofillSDKSampleObjcUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TVCUP6HC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AddressAutofillSDKSampleObjcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressAutofillSDKSampleObjc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776C1AB42850B78A005C939C /* Build configuration list for PBXProject "AddressAutofillSDKSampleObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776C1AE62850B78D005C939C /* Debug */,
+				776C1AE72850B78D005C939C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776C1AE82850B78D005C939C /* Build configuration list for PBXNativeTarget "AddressAutofillSDKSampleObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776C1AE92850B78D005C939C /* Debug */,
+				776C1AEA2850B78D005C939C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776C1AEB2850B78D005C939C /* Build configuration list for PBXNativeTarget "AddressAutofillSDKSampleObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776C1AEC2850B78D005C939C /* Debug */,
+				776C1AED2850B78D005C939C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776C1AEE2850B78D005C939C /* Build configuration list for PBXNativeTarget "AddressAutofillSDKSampleObjcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776C1AEF2850B78D005C939C /* Debug */,
+				776C1AF02850B78D005C939C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 776C1AB12850B78A005C939C /* Project object */;
+}
