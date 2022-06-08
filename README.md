@@ -1,7 +1,13 @@
 
 # Pataa AutoFill SDK Implementation Guide
 
-The Address Autofill SDK for iOS framework provides Pataa Autofill API to easily get Pataa accociated users and there address details.
+The Address Autofill SDK for iOS framework provides fast & simple interface that allows you to quickly fetch the address and customer details against a Pataa code.
+
+![image](https://user-images.githubusercontent.com/103625941/163770534-6cec5e08-00c1-48f5-9ab8-4db4027aa820.png)
+
+![image](https://user-images.githubusercontent.com/103625941/164167880-9334e305-62e1-47b1-86c2-1e336a40e481.png)
+
+![image](https://user-images.githubusercontent.com/103625941/164168176-cdf9148e-98e3-4dd4-8bb7-e19b1400ef8e.png)
 
 # Install SDK
 
@@ -29,7 +35,7 @@ pod install
 
 ## Follow the steps below for a manual install:
 
-- Download and unzip the PataaAutoFillSDK 
+- Download and unzip the PataaAutoFillSDK. ([Download Framework zip from here](https://github.com/pataa-com/Address-Autofill-iOS/releases))
 - Drag the PataaAutoFillSDK.xcframework inside your project under the main project file.
 - Embed the framework.
 - Select your project.xcodeproj file.
