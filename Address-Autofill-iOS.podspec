@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "Address-Autofill-iOS"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Official Address Autofill SDK for iOS to access Pataa API."
   spec.description  = <<-DESC
                    The Address Autofill SDK for iOS framework provides Pataa Autofill API
@@ -57,7 +57,8 @@ Pod::Spec.new do |spec|
 #   spec.source       = { :git => "https://github.com/pataa-com/Address-Autofill-iOS.git", :tag => "v#{spec.version}" }
  spec.source = {
      http: "https://github.com/pataa-com/Address-Autofill-iOS/releases/download/v#{spec.version}/PataaAutoFillSDK.xcframework.zip",
-     sha1: 'f19ed355b798d3fadc90617aacfc43fdfed92be4'
+     sha1: '3095632e8e6b52c0166db09e3e286eb737c68da2'
+     #sha1: 'f19ed355b798d3fadc90617aacfc43fdfed92be4'
   }
   spec.ios.vendored_frameworks = "PataaAutoFillSDK.xcframework"
 
